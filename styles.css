@@ -172,10 +172,13 @@ section .title::after {
   background: url("images/banner.jpg");
   height: 100vh;
   color: #fff;
-  min-height: 500px;
-  background-size: 100vmax;
-  background-attachment: unset;
   font-family: "Ubuntu", sans-serif;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #464646;
+  overflow: hidden;
 }
 .home .max-width {
   width: 100%;
@@ -227,7 +230,7 @@ section .title::after {
 .about .about-content .left img {
   height: 400px;
   width: 400px;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 6px;
 }
 .about .about-content .right {
@@ -416,13 +419,14 @@ section .title::after {
 .teams .carousel .card img {
   height: 150px;
   width: 150px;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 50%;
-  border: 5px solid crimson;
+  border: 3px solid crimson;
   transition: all 0.3s ease;
+  background-attachment: fixed;
 }
 .teams .carousel .card:hover img {
-  border-color: #fff;
+  border-color: rgb(0, 0, 0);
 }
 .owl-dots {
   text-align: center;
