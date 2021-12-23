@@ -28,6 +28,7 @@
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
                 <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#projects" class="menu-btn">Projects</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
                 <li><a href="#teams" class="menu-btn">Teams</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
@@ -46,7 +47,7 @@
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Kevin Zepwa</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="#">Hire me</a>
+                <a href="#contact">Hire me</a>
             </div>
         </div>
     </section>
@@ -61,8 +62,8 @@
                 </div>
                 <div class="column right">
                     <div class="text">I'm Kevin and I'm a <span class="typing-2"></span></div>
-                    <p>Hello! I am a Software Developer from Nairobi, Kenya. I am passionate about web site design and I
-                        program in Javascript (React), HTML and CSS (bootstrap). I am an apt learner and gets proficient
+                    <p class="project-summary">Hello! I am a Software Developer from Nairobi, Kenya. I am passionate about web site design and I
+                        program in Javascript (React), HTML and CSS (bootstrap 4). I am an apt learner and gets proficient
                         in new skills very fast. I'd be glad to work for/with you.</p>
                 </div>
             </div>
@@ -80,19 +81,18 @@
                         <div class="text">Web Design</div>
                         <p>Like the clay in the potter's hand, so is code in my hands. I dig the tech day by day in
                         order to deliver scable and efficient apps. Seemless user experience is at the top of my
-                        prioty list.
+                        prioty list. Let's me boast your online business!<br /><br />
+                        <a class="services_links"
+                            href="#projects">See some of my projects below.</a>
                         </p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-pen-nib"></i>
-                        <div class="text">Blogging</div>
-                        <p>I write articles, compile notes and write research papers. I am always on the top of
-                            information and I communicate to others about what I learn. I do a lot of research in a wide
-                            range of topics including healthcare, business and social aspects. Read one of my articles
-                            <a style="color: rgb(255, 0, 0);"
-                                href="https://aaeafrica.org/home/rapid-infrastructural-development-projects-shaping-the-business-landscape-in-kenya/">here.</a>
+                        <div class="text">Writing</div>
+                        <p>I write articles on my free time. I always want to be on top of new knowledge and I communicate to others about what I learn.</p><br /><p> I research and write about healthcare, business and social aspects. Read one of my articles
+                            <a class="services_links" href="https://aaeafrica.org/home/rapid-infrastructural-development-projects-shaping-the-business-landscape-in-kenya/" target="_blank">here.</a>
                         </p>
                     </div>
                 </div>
@@ -100,9 +100,9 @@
                     <div class="box">
                         <i class="fas fa-code"></i>
                         <div class="text">Google ads Expert</div>
-                        <p> I am a Google certified master at building and optimizing Google Search campaigns. I leverage automated solutions
-                        like Smart Bidding and Audience Solutions to boost campaign performance for specific marketing objectives. I will
-                        also ensure that your Search marketing plan is aligned with your digital marketing budget.
+                        <p> I am a Google certified master at building and optimizing Google Search campaigns.  I leverage automated solutions
+                        like Smart Bidding and Audience Solutions to boost campaign performance for specific marketing objectives. <a class="services_links"
+                            href="https://skillshop.exceedlms.com/profiles/4f25dce029ce41eb8f6bcf7b5197af4c" target="_blank">See certificates here</a>
                     </div>
                 </div>
             </div>
@@ -110,19 +110,76 @@
         </div>
     </section>
 
+    <!-- projects section start -->
+
+    <section class="projects">
+        <div class="max-width">
+            <div class="row">
+                <div class="col-sm-12">
+            <h2 class="title">Some of my exciting Projects</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box shadow-effect">
+                        <a href="https://vbobby.netlify.app/" target="_blank"><img src="https://vbobby.netlify.app/images/profilepic.jpg" alt="">
+                        <h3 class="project-title">Bob's Campaign Website</h3>
+                        <p class="project-summary">This was the official campaign website for Bob K'too. I made it using React.js Lorem ipsum dolor sit amet!</p>
+                    </div></a>
+                </div>
+                <div class="card">
+                    <div class="box shadow-effect">
+                        <a href="https://pa-pet.netlify.app/" target="_blank"><img src="https://pa-pet.netlify.app/static/media/product-08%20(2).2daaedb0.jpg" alt="">
+                        <h3 class="project-title">Pa-Pet</h3>
+                        <p class="project-summary">Pa-pet is an online pet shop. I made it using reusable react styled components.</p>
+                    </div></a>
+                </div>
+                <div class="card">
+                    <div class="box shadow-effect">
+                        <a href="https://mama-garage.netlify.app/" target="_blank"><img src="https://mama-garage.netlify.app/assets/img/about_img.png" alt="">
+                        <h3 class="project-title">Lady Mechanic Ke</h3>
+                        <p class="project-summary">LM-Ke is an initiative to empower women through automotive repair. I am making their website.</p>
+                    </div></a>
+                </div>
+                <div class="card">
+                    <div class="box shadow-effect">
+                        <img src="https://mdbootstrap.com/img/new/fluid/city/111.jpg" alt="">
+                        <h3 class="project-title">Card Pro</h3>
+                        <p class="project-summary">Card Pro Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus architecto at officiis ex dignissimos! Blanditiis at modi culpa facilis? Suscipit repudiandae neque esse fuga? Eligendi aspernatur sit autem est voluptatem. Lorem ipsum dolor!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box shadow-effect">
+                        <img src="https://mdbootstrap.com/img/new/fluid/city/111.jpg" alt="">
+                        <h3 class="project-title">Chrome Extension</h3>
+                        <p class="project-summary">This extension was made for a medical student who requested an application that can automatically save the links of all the sites he has visited during the day so that he can revisit them later. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus!.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box shadow-effect">
+                        <img src="https://mdbootstrap.com/img/new/fluid/city/111.jpg" alt="">
+                        <h3 class="project-title">Meme Generator</h3>
+                        <p class="project-summary">This applications pics the best 100 meme photos of the day and allows the user to insert captions at their desired positions! Good vibes, right? Eligendi aspernatur sit autem est voluptatem. Lorem ipsum Lorem ipsum dolor sit amet consec dolor!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box shadow-effect">
+                        <img src="https://mdbootstrap.com/img/new/fluid/city/111.jpg" alt="">
+                        <h3 class="project-title">BlackJack</h3>
+                        <p class="project-summary">This is the casino grage BlackJack game. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus architecto at officiis ex dignissimos! Blanditiis at
+                        modi culpa facilis? Suscipit repudiandae neque esse fuga? Eligendi aspernatur sit autem est voluptatem!</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
     <!-- skills section start -->
     <section class="skills" id="skills">
         <div class="max-width">
-            <!-- <h2 class="title">My skills</h2> -->
+            <h2 class="title">Skills</h2>
             <div class="skills-content">
-                <!-- <div class="column left">
-                    <div class="text">My creative skills & experiences.</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est
-                        recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi.
-                        Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam
-                        alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
-                    <a href="#">Read more</a>
-                </div> -->
+                
                 <div class="column right">
                     <div class="bars">
                         <div class="info">
@@ -133,21 +190,21 @@
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>CSS</span>
+                            <span>CSS, Bootstrap, SASS</span>
                             <!-- <span>60%</span> -->
                         </div>
                         <div class="line css"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>JavaScript</span>
+                            <span>JavaScript, React/Redux</span>
                             <!-- <span>80%</span> -->
                         </div>
                         <div class="line js"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>React</span>
+                            <span>Python/Django</span>
                             <!-- <span>50%</span> -->
                         </div>
                         <div class="line react"></div>
@@ -159,18 +216,25 @@
                         </div>
                         <div class="line elix"></div>
                     </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Git Version Control</span>
+                            <!-- <span>70%</span> -->
+                        </div>
+                        <div class="line elix"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CI/CD</span>
+                            <!-- <span>70%</span> -->
+                        </div>
+                        <div class="line elix"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- <div class="blockquote">
-        <blockquote class="blockquote">
-            <p class="blockquote__text">as the Hubble Telescope does of discovering that at the center of
-                every black hole there is a little man with a flashlight searching for a circuit breaker.</p>
-        </blockquote>
-        <span>~Sheldon Cooper</span>
-    </div> -->
-
+    
     <!-- teams section start -->
     <section class="teams" id="teams">
         <div class="max-width">
@@ -178,44 +242,44 @@
             <div class="carousel owl-carousel">
                 <div class="card">
                     <div class="box">
-                        <img src="images/profile-0.jpeg" alt="">
+                        <img src="https://media-exp1.licdn.com/dms/image/C5603AQHsngvyT7bMLQ/profile-displayphoto-shrink_100_100/0/1576577640476?e=1645660800&v=beta&t=zA4ixazI7L8JVNVDWFlG9E4aahITeaTNG6ndRnvAw2E" alt="">
                         <div class="text">Constantine Asava</div>
-                        <p>Software developer at Ignite Binary and a good mentor.</p>
+                        <p>Software engineer at GigLab Ltd and a good mentor.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="images/profile-5.jpeg" alt="">
+                        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGc-zLKGUOVxA/profile-displayphoto-shrink_100_100/0/1616054394825?e=1645660800&v=beta&t=wbZpCg9t6t0Vv6WqkD0HD1906jwGhveaakaRbCkZGWs" alt="">
                         <div class="text">Ian Mureithi</div>
-                        <p>Software developer, freelancer and adventure enthusiast.</p>
+                        <p>Software engineer at Digital Vision.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <img src="images/profile-3.jpeg" alt="">
                         <div class="text">Myself</div>
-                        <p>Software developer, freelancer, medic and adventure enthusiast.</p>
+                        <p>Software engineer at GigLab Ltd and part-time fitness coach.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <img src="images/profile-4.jpeg" alt="">
                         <div class="text">James Savali</div>
-                        <p>Software developer and freelancer</p>
+                        <p>Software engineer and internet entrepreneur</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="images/profile-2.jpeg" alt="">
+                        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEXBd5_rG8kqg/profile-displayphoto-shrink_400_400/0/1538829961610?e=1645660800&v=beta&t=LdfySGH_Akfv7SKIzOFminsAp_r9IUK-SN4FjVQ0_qo" alt="">
                         <div class="text">Collins Kigen</div>
-                        <p>Software developer and scientist.</p>
+                        <p>Software developer and scientist at ICIPE.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="images/profile-6.jpeg" alt="">
+                        <img src="https://media-exp1.licdn.com/dms/image/C5603AQHBoV43n6r4Fg/profile-displayphoto-shrink_400_400/0/1549871154573?e=1645660800&v=beta&t=Q0fomHJy_Xn36WyPTPQnI-wm8iTt0tDEy1h84x7ucOA" alt="">
                         <div class="text">Kevin Nzioka</div>
-                        <p>Absolute computer geek</p>
+                        <p>Software engineer at Microsoft Africa</p>
                     </div>
                 </div>
             </div>
