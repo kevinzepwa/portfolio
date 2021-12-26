@@ -37,6 +37,7 @@ section {
 }
 .about,
 .services,
+.projects,
 .skills,
 .teams,
 .contact,
@@ -287,7 +288,7 @@ section .title::after {
 
 /* services section styling */
 .services,
-.teams {
+.teams{
   color: #fff;
   background: #111;
 }
@@ -341,8 +342,12 @@ section .title::after {
 div.card {
   width: 100%;
 }
-/*********************************************/
-
+/********************************************/
+/********************************************/
+/********************************************/
+/********************************************/
+/********************************************/
+/* 
 .projects {
   display: flex;
   color: #000;
@@ -371,7 +376,7 @@ div.card {
   padding-top: 6rem;
 }
 .projects .title::after {
-  content: "craft by me";
+  content: "things i've built";
   color: #000;
   background-color: rgba(185, 185, 255, 0.9);
 }
@@ -383,7 +388,6 @@ div.card {
   border: 1px solid #ececec;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.02);
 }
-
 .project-summary {
   font-family: inherit;
   font-size: 17px;
@@ -393,7 +397,7 @@ div.card {
   color: black;
 }
 .project-title {
-  margin: -17px auto 0;
+  margin: 7px auto 0;
   display: table;
   width: auto;
   position: relative;
@@ -406,7 +410,7 @@ div.card {
 }
 .projects .card {
   text-align: center;
-  padding: 5px;
+  padding: 3px;
   background-color: rgb(255, 187, 0);
   margin-bottom: 8px;
   opacity: 1;
@@ -416,6 +420,109 @@ div.card {
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+.projects .carousel .card {
+  background: rgb(255, 187, 0);
+  border-radius: 6px;
+  padding: 5px 5px;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.projects .carousel .card:hover {
+  background: rgb(255, 187, 0);
+}
+
+.projects .carousel .card .box {
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.projects .carousel .card:hover .box {
+  transform: scale(1.05);
+}
+
+.projects .carousel .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.projects .carousel .card img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid crimson;
+  transition: all 0.3s ease;
+  background-attachment: fixed;
+}
+.projects .carousel .card:hover img {
+  border-color: rgb(255, 187, 0);
+}
+//********************************************/
+/********************************************/
+.projects {
+  color: #fff;
+  background-color: rgb(255, 187, 0);
+}
+.projects .title::before {
+  background: rgb(0, 0, 0);
+}
+.projects .title::after {
+  background: rgb(255, 187, 0);
+  content: "my work";
+}
+.projects .carousel .card {
+  background: crimson;
+  border: rgb(255, 187, 0) 3px solid;
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.projects .carousel .card:hover {
+  background: rgb(255, 187, 0);
+}
+
+.projects .carousel .card .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.projects .carousel .card:hover .box {
+  transform: scale(1.05);
+}
+
+.projects .carousel .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.projects .carousel .card img {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 3px solid rgb(253, 158, 177);
+  transition: all 0.3s ease;
+  background-attachment: fixed;
+}
+
+.projects .carousel .card:hover img {
+  border-color: rgb(255, 187, 0);
+}
+/********************************************/
+/********************************************/
 
 /* end Projects section */
 
