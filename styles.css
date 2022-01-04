@@ -182,7 +182,7 @@ section .title::after {
   left: 0;
   top: 0;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   opacity: 0.65;
   overflow: hidden;
   background-image: url("images/banner.jpg");
@@ -342,129 +342,7 @@ section .title::after {
 div.card {
   width: 100%;
 }
-/********************************************/
-/********************************************/
-/********************************************/
-/********************************************/
-/********************************************/
-/* 
-.projects {
-  display: flex;
-  color: #000;
-  position: relative;
-  font-family: "Ubuntu", sans-serif;
-}
-.projects:before {
-  content: " ";
-  display: flex;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  opacity: 0.75;
-  overflow: hidden;
-  background-image: url("images/bg_projects.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-color: rgb(255, 187, 0);
-}
-.projects-content {
-  position: relative;
-  padding-top: 6rem;
-}
-.projects .title::after {
-  content: "things i've built";
-  color: #000;
-  background-color: rgba(185, 185, 255, 0.9);
-}
-.shadow-effect {
-  background: #fff;
-  padding: 10px;
-  border-radius: 15px;
-  text-align: center;
-  border: 1px solid #ececec;
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.02);
-}
-.project-summary {
-  font-family: inherit;
-  font-size: 17px;
-  line-height: 1.5;
-  margin: 20px 0 20px 0;
-  font-weight: 300;
-  color: black;
-}
-.project-title {
-  margin: 7px auto 0;
-  display: table;
-  width: auto;
-  position: relative;
-  background: #3190e7;
-  padding: 9px 35px;
-  border-radius: 12px;
-  text-align: center;
-  color: #fff;
-  box-shadow: 0 9px 18px rgba(0, 0, 0, 0.12), 0 5px 7px rgba(0, 0, 0, 0.05);
-}
-.projects .card {
-  text-align: center;
-  padding: 3px;
-  background-color: rgb(255, 187, 0);
-  margin-bottom: 8px;
-  opacity: 1;
-  -webkit-transform: scale3d(0.8, 0.8, 1);
-  transform: scale3d(0.8, 0.8, 1);
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-.projects .carousel .card {
-  background: rgb(255, 187, 0);
-  border-radius: 6px;
-  padding: 5px 5px;
-  text-align: center;
-  overflow: hidden;
-  transition: all 0.3s ease;
-}
-
-.projects .carousel .card:hover {
-  background: rgb(255, 187, 0);
-}
-
-.projects .carousel .card .box {
-  display: block;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-}
-
-.projects .carousel .card:hover .box {
-  transform: scale(1.05);
-}
-
-.projects .carousel .card .text {
-  font-size: 25px;
-  font-weight: 500;
-  margin: 10px 0 7px 0;
-}
-
-.projects .carousel .card img {
-  height: 150px;
-  width: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid crimson;
-  transition: all 0.3s ease;
-  background-attachment: fixed;
-}
-.projects .carousel .card:hover img {
-  border-color: rgb(255, 187, 0);
-}
-//********************************************/
-/********************************************/
+/**projects**/
 .projects {
   color: #fff;
   background-color: rgb(255, 187, 0);
@@ -521,12 +399,35 @@ div.card {
 .projects .carousel .card:hover img {
   border-color: rgb(255, 187, 0);
 }
-/********************************************/
-/********************************************/
-
 /* end Projects section */
 
 /* skills section styling */
+.skills {
+  color: #000;
+  position: relative;
+}
+
+.skills:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.65;
+  overflow: hidden;
+  background-image: url("images/bg_projects.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-attachment: fixed;
+  background-color: #828181;
+}
+
+.skills-content {
+  position: relative;
+  
+}
 
 .skills .skills-content .column {
   width: calc(100% - 30px);
@@ -899,13 +800,4 @@ footer span a:hover {
     font-size: 23px;
     line-height: 38px;
   }
-  /* .blockquote {
-    max-width: 600px;
-    margin: 10px 30px;
-    padding: 25px;
-    background: #f8fffe;
-    border: 1px solid #b0d2cb;
-    color: #0b4237;
-    box-sizing: border-box;
-  } */
 }
