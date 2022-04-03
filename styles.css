@@ -417,7 +417,7 @@ div.card {
   height: 100%;
   opacity: 0.35;
   overflow: hidden;
-  background-image: url("images/bg_projects.jpg");
+  /*background-image: url("images/bg_projects.jpg");*/
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
