@@ -41,13 +41,6 @@ $(document).ready(function(){
         loop: true
     });
 
-    var typed = new Typed(".typing-2", {
-        strings: [ "design.", "code.", "write."],
-        typeSpeed: 50,
-        backSpeed: 20,
-        loop: true
-    });
-
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
