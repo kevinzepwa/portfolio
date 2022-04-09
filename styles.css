@@ -729,6 +729,9 @@ div.card {
   display: flex;
   align-items: center;
 }
+.social{
+  padding: 0 15px;
+}
 .download-button,
 .right form .button-area button {
   color: #214261;
