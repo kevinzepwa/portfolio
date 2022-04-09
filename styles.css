@@ -103,6 +103,12 @@ section .title::after {
   align-items: center;
   justify-content: space-between;
 }
+.app-logo{
+  height: 35px;
+  border: 2px solid #ffffff;
+  border-radius: 50% 50% 0% 50%;
+  background-color: #FFFFFF;
+}
 .navbar .logo a {
   color: #fff;
   font-size: 35px;
